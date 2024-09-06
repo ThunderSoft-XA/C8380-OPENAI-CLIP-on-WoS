@@ -45,7 +45,7 @@ pip install dist\qai_appbuilder-2.24.0-cp38-cp38-qnn-2.23-win_amd64.whl
 ```
 
 ## 6. 运行本demo程序根据描述搜索图片
-本demo程序源码clip_search_images_qt.py中定义了一个全局变量QNN_SDK_PATH，它指向QNN SDK实际的安装路径，您可以根据实际需要修改它们。运行本demo程序的指令：
+本demo程序源码clip_search_images_qt.py中定义了一个全局变量QNN_SDK_PATH，它指向QNN SDK实际的安装路径，您可以根据实际需要修改它们。运行本demo程序前，需要先从相应的release中下载模型文件并放到models目录中。运行本demo程序的指令：
 ```powershell
 cd C:\Users\HCKTest\source\repos\QCS8380-OPENAI-CLIP-on-WoS
 python ./clip_search_images_qt.py

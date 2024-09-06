@@ -44,7 +44,7 @@ pip install dist\qai_appbuilder-2.24.0-cp38-cp38-qnn-2.23-win_amd64.whl
 ```
 ​
 ## 6. Running the Demo Program to Repair the Specified Image
-The demo program source code aotgan.py defines one global variables: QNN_SDK_PATH. QNN_SDK_PATH points to the actual installation path of the QNN SDK. You can modify them as needed. To run the demo program, use the following command:
+The demo program source code aotgan.py defines one global variables: QNN_SDK_PATH. QNN_SDK_PATH points to the actual installation path of the QNN SDK. You can modify them as needed. You should download the large model files from the corresponding release and save them into the folder named models before run the demo program. To run the demo program, use the following command:
 ```powershell
 cd C:\Users\HCKTest\source\repos\QCS8380-OPENAI-CLIP-on-WoS
 python ./clip_search_images_qt.py
